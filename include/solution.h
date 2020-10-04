@@ -21,6 +21,8 @@ public:
     int minDistance(std::string word1, std::string word2);
     int countSubstrings(std::string s);
     std::vector<int> numMovesStonesII(std::vector<int> &stones);
+    int lengthOfLIS(std::vector<int>& nums);
+    int findNumberOfLIS(std::vector<int>& nums);
 
 private:
     bool isPlalindrome(std::string s);

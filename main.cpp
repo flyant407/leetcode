@@ -1,4 +1,4 @@
-#include "base.h"
+#include "solution.h"
 #include "UndergroundSystem.h"
 using namespace std;
 
@@ -22,7 +22,7 @@ int main()
 
     Solution s;
     //int res = s.longestCommonSubsequence("abcde", "ace");
-    vector<int> input = {4,3,5,6,10};
-    vector<int> res = s.numMovesStonesII(input);
+    vector<int> input = {1,3,5,4,7};
+    int res = s.findNumberOfLIS(input);
     return 0;
 }

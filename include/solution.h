@@ -1,5 +1,5 @@
-#ifndef _BASE_H
-#define _BASE_H
+#ifndef _SOLUTION_H
+#define _SOLUTION_H
 
 #ifndef HELLO_MSG
 #define HELLO_MSG "hello in header"

@@ -21,8 +21,8 @@ int main()
     // res = sys.getAverageTime("Leyton","Waterloo");
 
     Solution s;
-    //int res = s.longestCommonSubsequence("abcde", "ace");
-    vector<int> input = {1,3,5,4,7};
-    int res = s.findNumberOfLIS(input);
+    int res = s.longestCommonSubsequence("abcde", "ace");
+    vector<vector<int>> prerequisites = {{1,0}};
+    bool ress = s.canFinish(2,prerequisites);
     return 0;
 }

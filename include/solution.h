@@ -25,6 +25,7 @@ public:
     int findNumberOfLIS(std::vector<int>& nums);
     bool validateStackSequences(std::vector<int>& pushed, std::vector<int>& popped);
     bool canFinish(int numCourses, std::vector<std::vector<int>>& prerequisites);
+    std::vector<int> findOrder(int numCourses, std::vector<std::vector<int>>& prerequisites);
 
 private:
     bool isPlalindrome(std::string s);

@@ -16,6 +16,7 @@ bool Solution::canFinish(int numCourses, vector<vector<int>>& prerequisites)
 
     vector<int> visited(numCourses,0);
     int passCnt = 0;
+    //可以使用一个队列存储所有入度为0的顶点，这样可以优化算法实现，见210题
     while (passCnt <= numCourses) {
         bool find = false;
         for (size_t i = 0; i < indegree.size(); i++) {

@@ -41,6 +41,8 @@ public:
     int maxDepth(TreeNode* root);
     std::vector<std::vector<int>> levelOrder(TreeNode *root);
     std::vector<int> postorderTraversal(TreeNode *root);
+    int numsIslands(std::vector<std::vector<char>> &grid);
+    int maxAreaOfIsland(std::vector<std::vector<char>> &grid);
 
 private:
     bool isPlalindrome(std::string s);

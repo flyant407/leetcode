@@ -22,7 +22,12 @@ int main()
 
     Solution s;
     int res = s.longestCommonSubsequence("abcde", "ace");
-    vector<vector<int>> board = {{1,2,3},{4,0,5}};
-    bool ress = s.slidingPuzzle(board);
+    vector<vector<char>> board = {
+{'1','1','1','1','0'},
+{'1','1','0','1','0'},
+{'1','1','0','0','0'},
+{'0','0','0','0','0'}
+};
+    bool ress = s.numsIslands(board);
     return 0;
 }

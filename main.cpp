@@ -22,7 +22,7 @@ int main()
 
     Solution s;
     int res = s.longestCommonSubsequence("abcde", "ace");
-    vector<vector<int>> prerequisites = {{1,0}};
-    bool ress = s.canFinish(2,prerequisites);
+    vector<vector<int>> board = {{1,2,3},{4,0,5}};
+    bool ress = s.slidingPuzzle(board);
     return 0;
 }

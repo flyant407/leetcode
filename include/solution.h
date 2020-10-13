@@ -43,6 +43,9 @@ public:
     std::vector<int> postorderTraversal(TreeNode *root);
     int numsIslands(std::vector<std::vector<char>> &grid);
     int maxAreaOfIsland(std::vector<std::vector<char>> &grid);
+    std::vector<std::string> generateParenthesis(int n);
+    bool isValid(std::string s);
+    bool isValideOpt(std::string s);
 
 private:
     bool isPlalindrome(std::string s);
